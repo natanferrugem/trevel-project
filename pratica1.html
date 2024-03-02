@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Segunda pag com html</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">
+                        Produtos
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Links
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Contatos
+                    </a>
+                </li>   
+            </ul>
+        </nav>
+        <h1>Venha realizar a viagem dos seus sonhos</h1>
+    </header>
+    <main>
+        <div id="imagens">
+            <h2> conheça nossos pacotes </h2>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra mi
+        sed aliquam vulputate. Pellentesque scelerisque eget risus quis semper.
+        Cras nec nisi vel sem consequat condimentum. Fusce sodales hendrerit
+        tortor, sit amet feugiat nibh commodo suscipit. Mauris id condimentum est,
+        sit amet finibus ex. Interdum et malesuada fames ac ante ipsum primis in
+        faucibus. Cras tristique arcu sit amet risus aliquet semper. Curabitur
+        odio orci, mollis sit amet sagittis aliquam, accumsan vitae elit. Etiam
+        efficitur auctor porttitor. Phasellus ornare dictum orci gravida dapibus.
+        Suspendisse potenti. Pellentesque sed maximus augue, ac egestas ligula.
+        <br>
+        <a href="https://www.lipsum.com/">link</a>
+        <hr>
+        <figure>
+            <img src="img/download.jfif" alt="gramado - rio grande do sul ">
+            <figcaption> Gramado </figcaption>
+        </figure>
+        <figure>
+            <img src="img/praia de matadeiro.jfif" alt="praia de matadeiro">
+            <figcaption> praia de matadeiro </figcaption>
+        </figure>
+        <figure>
+            <img src="img/praia de campeche.jfif" alt="praia de campeche">
+            <figcaption> praia de campeche </figcaption>
+        </figure>
+        </p>
+    </div>
+
+    <div id="videos">
+        <video controls width="300px">
+            <source src="video/" type="video/MP4">
+            <source src="video/" type="video/WEBM">
+            seu navegador nao suporta o formato do video. <a href="video/"> clique aqui para baixar</a>
+        </video>
+    </div>
+
+    <div id="tabelas">
+        <h2>Taxas e Serviços</h2>
+        <p>vejas nossas taxas para serviços</p>
+        <table>
+            <caption> Deescrição de serviços e valores</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Serviços
+                    </th>
+                    <th>
+                        Valor
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                    Reservas De Hotel
+                </td>
+                <td>
+                    R$500,00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Compras de passagens                        
+                </td>
+                <td>
+                    R$100,000                       
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Aluguel de carros                        
+                </td>
+                <td>
+                    R$50,000                       
+                </td>
+            </tbody>
+            </tr>
+        </table>
+    </div>
+
+
+    <div id="Orçamento">
+        <h2>Orçamento</h2>
+        <form action="" method="get">
+  
+          <fieldset>
+            <legend>Dados da Viagem</legend>
+            <label for="">nome</label><br />
+            <input type="text" required name="name" /><br /><br />
+  
+            <label for="">email</label><br />
+            <input type="email" name="email" /><br /><br />
+  
+            <label for="">Data de Ida</label><br />
+            <input type="date" name="dataIda" /><br /><br />
+  
+            <label for="">Data de volta</label><br />
+            <input type="date" name="dataVolta" /><br /><br />
+  
+            <label for="">Quantidade de pessoas</label> <br />
+            <input type="number" name="quantidade de pessoas" /> <br /><br />
+          </fieldset>
+  
+          <fieldset>
+            <legend for="">Quais serviços deseja contratar?</legend>
+            <label for="">
+              <br /><input type="checkbox" name="passagens" value="passagens" />
+              Compra de passagens <br /><input
+                type="checkbox"
+                name="hospedagem"
+                value="hospedagem"
+              />
+              reserva de hospedagem <br /><input
+                type="checkbox"
+                name="veiculos"
+                value="veiculos"
+              />
+              reserva de veiculos
+            </label>
+          </fieldset>
+  
+          <fieldset>
+              <legend>Escolha a forma de pagamento</legend>
+              <label>
+                  <input type="radio" name="formaPagamnto" value="cartao de crédito"> Cartão de Crédito
+              </label>
+              <label>
+                  <input type="radio" name="formaPagamnto" value="boleto"> Boleto
+              </label>
+              <label>
+                  <input type="radio" name="formaPagamnto" value="pix"> Pix
+              </label>
+          </fieldset>
+          <fieldset>
+              <legend>Escolha o prazo para pagamento</legend>
+              <select name="PrazoPagamento" id="">
+                  <option value="aVista">à vista</option>
+                  <option value="5vezes">5 Vezes sem juros</option>
+                  <option value="10 vezes" selected>10 Vezes com juros</option>
+              </select>
+          </fieldset>
+  
+          <label for="">Comentário</label><br />
+          <textarea name="Comentário" id="" cols="30" rows="5"></textarea>
+  
+          <button>salvar</button>
+        </form>
+    </div>
+    </main>
+    <footer>
+        <p>- Site desenvolvido por Natan Ferrugem</p>
+    </footer>
+</body>
+</html>
