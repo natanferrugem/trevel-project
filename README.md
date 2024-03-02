@@ -1,4 +1,4 @@
-## Trevel-Project
+## ✈️ Trevel-Project
 <p align="center">
 <a href="https://natanferrugem.github.io/trevel-project" target="_blank"> PROJECT DONE </a>
 </p>
