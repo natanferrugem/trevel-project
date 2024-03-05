@@ -1,109 +1,32 @@
-:root{
-    --text-color-cinza-claro: rgb(128, 128, 128);
-    --text-color-cinza-escuro: rgb(64, 63, 63);
-    --text-color-preto: rgb(15, 15, 15)
-    --bg-color-laranja: #f4511e;
-    --bg-color-laranja2: #c02d00;
-    --bg-color-branco: rgb(255, 255, 255);
-    --bg-color-branco2: #f5f3f3;
-    --bg-color-branco3: #dedcdc;
-    }
-    body{
-        font-weight: 400;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        line-height: 2.2em;
-        color: var(--text-color-preto);
-        margin: 0;
-    }
-    
-    
-    
-    
-    
-    header{
-        background-color:var(--bg-color-laranja2) ;
-    }
-    section, footer{
-        margin: 40px;
-    }
-    
-    h1{
-        color: var(--text-color-cinza-escuro);
-        font-size: 63px;
-        padding: 15px;
-        text-align: center;
-    }
-    
-    h2{
-        font-size: 24px;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-align: center;
-    
-        color:var(--text-color-cinza-claro) ;
-    }
-    
-    main{
-        margin: 10px;
-    }
-    
-    
-    
-    nav li a{
-        padding: 10px;
-        color: var(--bg-color-branco);
-        text-decoration: none;
-    }
-    nav li {
-        float: left;
-    
-    }
-    nav ul{
-        float:right;
-        list-style: none;
-    }
-    
-    nav{
-        font-size: 12px;
-        letter-spacing: 4px;
-        height: 10px;
-        padding-right: 50px;
-    
-        background-color:var(--bg-color-laranja2) ;
-    }
-    
-    
-    
-    
-    
-    table{
-        width: 100%;
-    }
-    
-    table td{
-        color:var(--text-color-cinza-escuro);
-    }
-    
-    table tr:nth-child(even){
-        background-color: var(--bg-color-branco);
-    }
-    table tr:nth-child(odd){
-        background-color: var(--bg-color-branco3);
-    }
-    table thead th{
-        background-color: var(--bg-color-laranja);
-        color: var(--bg-color-branco);
-    }
-    
-    #pacotes .imagens figure{
-        display: inline-block;
-    }
-    
-    #pacotes .imagens, #pacotes .videos{
-        text-align: center;
-    } 
-    
-    
-    
-    
+:root {
+  --text-color-cinza-claro: rgb(128, 128, 128);
+  --text-color-cinza-escuro: rgb(64, 63, 63);
+  --text-color-preto: rgb(15, 15, 15);
+  --bg-color-laranja: #f4511e;
+  --bg-color-laranja2: #c02d00;
+  --bg-color-laranja2: #c02d00;
+  --bg-color-branco: rgb(255, 255, 255);
+  --bg-color-branco2: #f5f3f3;
+  --bg-color-branco3: #dedcdc;
+}
+
+section,
+footer {
+  margin: 40px;
+}
+
+h1 {
+  color: var(--text-color-cinza-escuro);
+  font-size: 63px;
+  padding: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--text-color-cinza-claro);
+}
