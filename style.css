@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
     --text-color-cinza-claro: rgb(128, 128, 128);
     --text-color-cinza-escuro: rgb(64, 63, 63);
     --text-color-preto: rgb(15, 15, 15);
@@ -30,3 +31,36 @@
   
     color: var(--text-color-cinza-claro);
   }
+=======
+  --text-color-cinza-claro: rgb(128, 128, 128);
+  --text-color-cinza-escuro: rgb(64, 63, 63);
+  --text-color-preto: rgb(15, 15, 15);
+  --bg-color-laranja: #f4511e;
+  --bg-color-laranja2: #c02d00;
+  --bg-color-laranja2: #c02d00;
+  --bg-color-branco: rgb(255, 255, 255);
+  --bg-color-branco2: #f5f3f3;
+  --bg-color-branco3: #dedcdc;
+}
+
+section,
+footer {
+  margin: 40px;
+}
+
+h1 {
+  color: var(--text-color-cinza-escuro);
+  font-size: 63px;
+  padding: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--text-color-cinza-claro);
+}
+>>>>>>> fcee3fe8a514dd680b2b9ff4f8ed8175be94a67f
